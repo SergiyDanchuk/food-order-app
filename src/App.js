@@ -1,6 +1,10 @@
-function App() {
+import { Header } from "./components/Layout/Header";
+
+const App = () => {
   return (
-    <div className="App">Learn React</div>
+    <>
+      <Header />
+    </>
   );
 }
 
